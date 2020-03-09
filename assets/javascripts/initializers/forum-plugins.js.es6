@@ -1,5 +1,5 @@
 import Sharing from 'discourse/lib/sharing';
-
+import { withPluginApi } from "discourse/lib/plugin-api";
 function initiazeForum(api){
 	Sharing.addSource({
       id: 'wechat',
