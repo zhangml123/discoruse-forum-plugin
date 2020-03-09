@@ -4,7 +4,7 @@
 # authors: null
 # url: https://github.com/zhangml123/forum-plugins
 
-enabled_site_setting :discourse_forum_plugin
+
 
 Discourse.top_menu_items.push(:essence)
 Discourse.anonymous_top_menu_items.push(:essence)
