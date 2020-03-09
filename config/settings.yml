@@ -34,7 +34,3 @@ posting:
   post_edit_time_limit:
     default: 1440
     max: 14400
-plugins:
-  discourse_forum_plugin:
-    default: true
-    client: true
