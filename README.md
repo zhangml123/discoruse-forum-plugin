@@ -1,1 +1,1 @@
-# discoruse-forum-plugin
+# forum-plugin

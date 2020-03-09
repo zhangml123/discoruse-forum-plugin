@@ -1,8 +1,8 @@
-# name: discourse-forum-plugin
-# about: discourse forum plugin
+# name: forum-plugins
+# about: forum plugins
 # version: 0.1
 # authors: null
-# url: https://github.com/zhangml123/discourse-forum-plugin
+# url: https://github.com/zhangml123/forum-plugins
 
 enabled_site_setting :discourse_forum_plugin
 

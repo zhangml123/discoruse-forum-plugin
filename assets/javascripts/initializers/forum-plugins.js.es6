@@ -14,7 +14,7 @@ function initiazeForum(api){
 
 
 export default {
-  name: 'discourse-forum-plugin',
+  name: 'forum-plugins',
   initialize(container) {
    
       withPluginApi("0.8.22", initiazeForum);
