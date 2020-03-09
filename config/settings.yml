@@ -1,0 +1,40 @@
+basic:
+  share_links:
+    client: true
+    type: list
+    default: 'twitter|facebook|email|wechat'
+    allow_any: false
+    choices:
+     - twitter
+     - facebook
+     - email
+     - wechat
+  top_menu:
+    client: true
+    refresh: true
+    type: list
+    list_type: compact
+    default: "latest|new|unread|top|categories|essence"
+    regex: "latest"
+    regex_error: "site_settings.errors.must_include_latest"
+    validator: RegexPresenceValidator
+    allow_any: false
+    choices:
+     - latest
+     - new
+     - unread
+     - top
+     - categories
+     - read
+     - posted
+     - bookmarks  
+     - essence
+
+posting:
+  post_edit_time_limit:
+    default: 1440
+    max: 14400
+plugins:
+  discourse_forum_plugin:
+    default: true
+    client: true

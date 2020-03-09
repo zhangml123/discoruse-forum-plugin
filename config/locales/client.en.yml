@@ -1,0 +1,14 @@
+# encoding: utf-8
+#
+
+en:
+  js:
+    filters:
+      essence:
+        title: "Essence"
+        help: "the essence of post"
+    topics:
+      none:
+        essence: "There are no essence topics."
+      bottom:
+        essence: "There are no more essence topics."  

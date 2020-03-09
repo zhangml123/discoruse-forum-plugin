@@ -1,0 +1,14 @@
+# encoding: utf-8
+#
+
+zh_CN:
+  js:
+    filters:
+      essence:
+        title: "精华"
+        help: "精华主题"
+    topics:
+      none:
+        essence: "没有精华主题"
+      bottom:
+        essence: "没有更多的精华主题" 
